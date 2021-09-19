@@ -1,4 +1,4 @@
-const affiche_n = (list_n) => {
+const moduloFiveThree = (list_n) => {
     for (n of list_n) {
         if (n % (3 * 5) === 0) {
             console.log('GarçonFille')
@@ -12,4 +12,4 @@ const affiche_n = (list_n) => {
     }
 }
 
-// affiche_n([8, 6, 15, 3, 9, 30])
+// moduloFiveThree([8, 6, 15, 3, 9, 30])
